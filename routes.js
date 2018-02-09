@@ -8,7 +8,7 @@ module.exports = function(app) {
   });
 
   // GET fake credit card data
-  app.get('/api/customers', (req, res) => {
+  app.get('/api/admin', (req, res) => {
     res.send(cc);
   });
 };
