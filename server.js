@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 // Set port
-const port = process.env.PORT || '3002';
+const port = process.env.PORT || '3006';
 app.set('port', port);
 
 // Routes
