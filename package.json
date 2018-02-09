@@ -1,0 +1,18 @@
+{
+  "name": "sample-insecure-nodeserver",
+  "version": "0.0.0",
+  "description": "Node.js server that serves fake 'sensitive' data and is unsecured. This is for demo purposes only. You'd never really want to do this! All data in this repo is falsified.",
+  "repository": "https://github.com/kmaida/sample-insecure-nodeserver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Kim Maida",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
+}
