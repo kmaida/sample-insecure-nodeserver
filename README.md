@@ -47,6 +47,10 @@ $ npm install -g nodemon
 $ nodemon server
 ```
 
+### Production
+
+This demo API is live at [https://fakeapi.kmaida.net/api](https://fakeapi.kmaida.net/api).
+
 ## License
 
 [MIT](LICENSE) © Kim Maida 2018
