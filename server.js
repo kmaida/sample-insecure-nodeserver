@@ -24,7 +24,9 @@ function reqSec(req, res, next) {
   // Send the request on with security headers
   return next();
 }
+// IMPORTANT: Comment out the following line to run without HTTPS (i.e., locally)
 app.use(reqSec);
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());

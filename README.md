@@ -47,6 +47,8 @@ $ npm install -g nodemon
 $ nodemon server
 ```
 
+> *NOTE:* You must comment out the `app.use(reqSec);` line in the `server.js` file in order to run the app without HTTPS.
+
 ### Production
 
 This demo API is live at [https://fakeapi.kmaida.net/api](https://fakeapi.kmaida.net/api).
